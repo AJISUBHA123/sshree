@@ -1,10 +1,7 @@
-n1=int(input())
-a6=0
-b6=1
-print(b6,end=' ')
-for i in range(0,n1-1):
-    c=a6+b6
-    print(c,end=' ')
-    a6=b6
-    b6=c6
-   
+num1=int(input())
+x9=0
+y9=1
+while(num1>0):
+ print(y9,end=' ')
+ x9,y9=y9,x9+y9
+ num1-=1
